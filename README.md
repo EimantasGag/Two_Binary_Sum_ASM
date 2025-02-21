@@ -1,14 +1,12 @@
-# Two_Binary_Sum_ASM
+## Description
+Program written in assembly for x86 architecture, that adds two binary numbers and writes the result to a file.
 
-## Aprašymas
-Programa, kuri sudeda du dvejetainius skaičius ir atsakymą parašo į failą
-
-## Reikalavimai
+## Requirements
 x86 Emulator: https://dosbox-x.com
 
 Turbo Assembler: https://sourceforge.net/projects/guitasm8086/
 
-## Kompiliavimas ir linkinimas
+## Compiling and linking
 ```console
 tasm /zi sumTwoBinary
 tlink /v sumTwoBinary
